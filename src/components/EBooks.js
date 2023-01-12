@@ -5,10 +5,10 @@ import EBooksDataTable from "../datatables/EBooksDataTable";
 
 const EBooks = () => {
   return (
-    <div class="utf-dashboard-content-container-aera" data-simplebar>
-      <div id="dashboard-titlebar" class="utf-dashboard-headline-item">
-        <div class="row">
-          <div class="col-xl-12 z-index-1">
+    <div classNameName="utf-dashboard-content-container-aera" data-simplebar>
+      <div id="dashboard-titlebar"className="utf-dashboard-headline-item">
+        <div className="row">
+          <div className="col-xl-12 z-index-1">
             <h3>E Books</h3>
             <nav id="breadcrumbs">
               <ul>
@@ -20,14 +20,14 @@ const EBooks = () => {
           </div>
         </div>
       </div>
-      <div class="utf-dashboard-content-inner-aera">
-        <div class="row">
-          <div class="col-xl-12 margin-bottom-115">
+      <div className="utf-dashboard-content-inner-aera">
+        <div className="row">
+          <div className="col-xl-12 margin-bottom-115">
             <EBooksDataTable />
-            <div class="clearfix"></div>
+            <div className="clearfix"></div>
           </div>
         </div>
-        <div class="utf-dashboard-footer-spacer-aera"></div>
+        <div className="utf-dashboard-footer-spacer-aera"></div>
         <Footer />
       </div>
     </div>

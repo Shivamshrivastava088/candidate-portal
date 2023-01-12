@@ -8,8 +8,8 @@ export default function Datatable() {
     <div className='table-responsive'>
    
 <div>
-      <table class="table">
-        <thead class="thead-dark">
+      <table className="table">
+        <thead className="thead-dark">
           <tr>
             <th scope="col">Training Name</th>
             <th scope="col">Designation</th>

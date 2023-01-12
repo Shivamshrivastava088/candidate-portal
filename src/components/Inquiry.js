@@ -33,10 +33,10 @@ const Inquiry = () => {
 //     }, []);
     
     return (
-            <div class="utf-dashboard-content-container-aera" data-simplebar>
-                <div id="dashboard-titlebar" class="utf-dashboard-headline-item">
-                    <div class="row">
-                        <div class="col-xl-12 z-index-1">
+            <div className="utf-dashboard-content-container-aera" data-simplebar>
+                <div id="dashboard-titlebar" className="utf-dashboard-headline-item">
+                    <div className="row">
+                        <div className="col-xl-12 z-index-1">
                             <h3>Inquiry</h3>
                             <nav id="breadcrumbs">
                                 <ul>
@@ -48,11 +48,11 @@ const Inquiry = () => {
                         </div>
                     </div>
                 </div>
-                <div class="utf-dashboard-content-inner-aera">
-                    <div class="row">
+                <div className="utf-dashboard-content-inner-aera">
+                    <div className="row">
                         <div class="col-xl-12">
 
-                            <div class="clearfix"></div>
+                            <div className="clearfix"></div>
                         </div>
                     </div>
                     <div className="utf-dashboard-content-inner-aera">

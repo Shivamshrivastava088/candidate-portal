@@ -6,10 +6,10 @@ import Datatable5 from "../datatables/Datatable5";
 
 const Reports = () =>{
     return(
-        <div class="utf-dashboard-content-container-aera" data-simplebar>
-          <div id="dashboard-titlebar" class="utf-dashboard-headline-item">
-            <div class="row">
-              <div class="col-xl-12 z-index-1">
+        <div className="utf-dashboard-content-container-aera" data-simplebar>
+          <div id="dashboard-titlebar" className="utf-dashboard-headline-item">
+            <div className="row">
+              <div className="col-xl-12 z-index-1">
                 <h3>Reports</h3>
                 <nav id="breadcrumbs">
                   <ul>
@@ -21,16 +21,16 @@ const Reports = () =>{
               </div>
             </div>
           </div>
-          <div class="utf-dashboard-content-inner-aera margin-bottom-115">
-            <div class="row">
-              <div class="col-xl-12">
+          <div className="utf-dashboard-content-inner-aera margin-bottom-115">
+            <div className="row">
+              <div className="col-xl-12">
                 
                   
                     <Datatable5/>
-                <div class="clearfix"></div>
+                <div className="clearfix"></div>
               </div>
             </div>
-            <div class="utf-dashboard-footer-spacer-aera"></div>
+            <div className="utf-dashboard-footer-spacer-aera"></div>
             <Footer/>
             </div>
             </div>
