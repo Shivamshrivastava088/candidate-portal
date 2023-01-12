@@ -21,8 +21,8 @@ export default function ResumeDataTable() {
       }, []);
       return (
         <div>
-          <table class="table">
-            <thead class="thead-dark">
+          <table className="table">
+            <thead className="thead-dark">
               <tr>
                 <th>Company_Name</th>
                 <th>Department</th>

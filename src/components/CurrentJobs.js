@@ -21,9 +21,9 @@ const CurrentJobs = () => {
                     </div>
                 </div>
             
-                <div class="utf-dashboard-content-inner-aera margin-bottom-115">
-                    <div class="row">
-                        <div class="col-xl-12">
+                <div className="utf-dashboard-content-inner-aera margin-bottom-115">
+                    <div className="row">
+                        <div className="col-xl-12">
                             
                                 <Current_jobs_Datatable />
                     

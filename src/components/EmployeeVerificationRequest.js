@@ -8,10 +8,10 @@ import Datatable9 from "../datatables/Datatable9";
 const EmployeeVerificationRequest = () => {
     return (
         
-            <div class="utf-dashboard-content-container-aera" data-simplebar>
-                <div id="dashboard-titlebar" class="utf-dashboard-headline-item">
-                    <div class="row">
-                        <div class="col-xl-12 z-index-1">
+            <div   className="utf-dashboard-content-container-aera" data-simplebar>
+                <div id="dashboard-titlebar" className="utf-dashboard-headline-item">
+                    <div className="row">
+                        <div className="col-xl-12 z-index-1">
                             <h3>Employee Verification Request</h3>
                             <nav id="breadcrumbs">
                                 <ul>
@@ -24,22 +24,22 @@ const EmployeeVerificationRequest = () => {
                     </div>
                 </div>
                 <div class="utf-dashboard-content-inner-aera">
-                    <div class="row">
-                        <div class="col-xl-12">
+                    <div className="row">
+                        <div className="col-xl-12">
                             <Datatable8/>
-                            <div class="clearfix"></div>
+                            <div className="clearfix"></div>
                         </div>
                     </div>
 
 
-                    <div class="utf-dashboard-content-inner-aera">
-                        <div class="row">
-                            <div class="col-xl-12">
+                    <div   className="utf-dashboard-content-inner-aera">
+                        <div     className="row">
+                            <div  className="col-xl-12">
                                 <Datatable9/>
-                                <div class="clearfix"></div>
+                                <div  className="clearfix"></div>
                             </div>
                         </div>
-                        <div class="utf-dashboard-footer-spacer-aera"></div>
+                        <div className="utf-dashboard-footer-spacer-aera"></div>
                         <Footer />
                     </div>
                 </div>
